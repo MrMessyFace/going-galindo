@@ -3,7 +3,7 @@ import React from "react";
 const RSVP = () => {
   return (
     <div className="rsvp-section">
-      <p>RSVP</p>
+      <h1>RSVP</h1>
     </div>
   );
 };

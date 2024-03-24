@@ -3,7 +3,7 @@ import React from "react";
 const FAQ = () => {
   return (
     <div className="faq-section">
-      <p>FAQ</p>
+      <h1>FAQ</h1>
     </div>
   );
 };

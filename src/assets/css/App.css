@@ -5,27 +5,38 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gothic A1", sans-serif;
+  background-image: url("../images/background-image.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff2cc;
 }
 
-.header-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.wrapper {
+  padding-bottom: 50px;
 }
 
 .navbar-section {
   display: flex;
   justify-content: space-around;
-  margin-left: 400px;
-  margin-right: 400px;
-  margin-bottom: 20px;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding-left: 450px;
+  padding-right: 450px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .navbar-section a {
-  font-weight: bold;
-  color: black;
+  color: #fff2cc;
   text-decoration: none;
 }
 
@@ -42,10 +53,48 @@ body {
   text-align: center;
 }
 
+.home-section h1 {
+  font-family: "Arsenal", sans-serif;
+  font-size: 45px;
+}
+
+.home-section h2 {
+  font-family: "Parisienne", cursive;
+  font-size: 30px;
+}
+
+.our-story-section h1, .wedding-party-section h1, .travel-section h1, .registry-section h1 {
+  font-family: "Parisienne", cursive;
+  font-size: 45px;
+}
+
+.banner,
+.stinger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.banner img {
+  height: 400px;
+  width: 1000px;
+}
+
+.stinger img {
+  height: 300px;
+  width: relative;
+}
+
 .wedding-party-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.wedding-party-list h2 {
+  font-family: "Parisienne", cursive;
+  font-size: 35px;
 }
 
 .bride-side-section {
@@ -54,13 +103,77 @@ body {
   margin-right: 20px;
 }
 
-.groom-side-section {
+.bride-side-columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.bride-side-column-one {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.bride-side-column-two {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
 }
 
-.footer {
+.groom-side-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.groom-side-columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.groom-side-column-one {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.groom-side-column-two {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.bride-side-column-one img,
+.bride-side-column-two img,
+.groom-side-section img,
+.groom-side-column-one img,
+.groom-side-column-two img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #FFE699;
+}
+
+.footer-section {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright-section,
+.web-designer-section {
+  display: flex;
+  align-items: center;
+}
+
+.web-designer-section a {
+  color: #fff2cc;
+  text-decoration: none;
 }

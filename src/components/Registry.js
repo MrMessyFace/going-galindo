@@ -3,7 +3,7 @@ import React from "react";
 const Registry = () => {
   return (
     <div className="registry-section">
-      <p>Registry</p>
+      <h1>Registry</h1>
     </div>
   );
 };
