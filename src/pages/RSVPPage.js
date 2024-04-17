@@ -1,10 +1,10 @@
 import React from "react";
-import RSVP from "../components/RSVP";
+import RSVPForm from "../components/RSVP";
 
 const RSVPPage = () => {
   return (
     <div>
-      <RSVP />
+      <RSVPForm />
     </div>
   );
 };

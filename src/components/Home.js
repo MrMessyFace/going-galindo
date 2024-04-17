@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="home-section">
+      <br></br>
       <h1>KELSEY & JESSIE</h1>
       <h2>Saturday, December 7, 2024</h2>
       <p>Countdown</p>
@@ -14,7 +16,7 @@ const Home = () => {
         />
       </div>
       <br></br>
-      <p>RSVP</p>
+      <button className="buttonStyle"><Link to="/rsvp">RSVP</Link></button>
       <br></br>
       <div>
         <div>
@@ -40,6 +42,7 @@ const Home = () => {
           alt="Kelsey & Jessie"
         />
       </div>
+      <br></br>
     </div>
   );
 };

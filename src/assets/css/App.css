@@ -6,12 +6,14 @@
 
 body {
   font-family: "Gothic A1", sans-serif;
-  background-image: url("../images/background-image.jpg");
+  background-color: #1c4835;
+  background-image: url("../images/sparkles.png");
   background-size: 100%;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #fff2cc;
+  font-weight: bold;
+  color: #ffe699;
 }
 
 .container {
@@ -33,10 +35,12 @@ body {
   padding-right: 450px;
   font-size: 20px;
   font-weight: bold;
+  background-color: #1c4835;
 }
 
-.navbar-section a {
-  color: #fff2cc;
+.navbar-section a,
+.web-designer-section a {
+  color: #ffe699;
   text-decoration: none;
 }
 
@@ -51,11 +55,12 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 325px;
 }
 
 .home-section h1 {
   font-family: "Arsenal", sans-serif;
-  font-size: 45px;
+  font-size: 70px;
 }
 
 .home-section h2 {
@@ -63,7 +68,15 @@ body {
   font-size: 30px;
 }
 
-.our-story-section h1, .wedding-party-section h1, .travel-section h1, .registry-section h1 {
+.home-section p {
+  font-weight: bold;
+}
+
+.our-story-section h1,
+.wedding-party-section h1,
+.travel-section h1,
+.registry-section h1,
+.rsvp-section h1 {
   font-family: "Parisienne", cursive;
   font-size: 45px;
 }
@@ -84,6 +97,26 @@ body {
 .stinger img {
   height: 300px;
   width: relative;
+}
+
+.buttonStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #c21f1f;
+  border: 3px solid #ffe699;
+  border-radius: 5px;
+}
+
+.buttonStyle a {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
 }
 
 .wedding-party-list {
@@ -152,7 +185,26 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 5px solid #FFE699;
+  border: 5px solid #ffe699;
+}
+
+.rsvp-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rsvp-section p {
+  margin-left: 710px;
+  margin-right: 710px;
+}
+
+.rsvp-section input{
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  text-align: center;
 }
 
 .footer-section {
@@ -171,9 +223,4 @@ body {
 .web-designer-section {
   display: flex;
   align-items: center;
-}
-
-.web-designer-section a {
-  color: #fff2cc;
-  text-decoration: none;
 }
