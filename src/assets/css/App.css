@@ -12,7 +12,7 @@ body {
   /* background-position: center; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #ffe699;
 }
 
@@ -58,7 +58,13 @@ body {
   margin-top: 325px;
 }
 
-.home-section h1 {
+.home-section h1,
+.our-story-section h1,
+.wedding-party-section h1,
+.faq-section h1,
+.travel-section h1,
+.registry-section h1,
+.rsvp-section h1 {
   font-family: "Arsenal", sans-serif;
   font-size: 70px;
 }
@@ -68,17 +74,20 @@ body {
   font-size: 30px;
 }
 
-.home-section p {
-  font-weight: bold;
-}
-
-.our-story-section h1,
-.wedding-party-section h1,
-.travel-section h1,
-.registry-section h1,
-.rsvp-section h1 {
+.our-story-section h2,
+.wedding-party-section h2,
+.faq-section h2,
+.travel-section h2,
+.registry-section h2,
+.rsvp-section h2 {
   font-family: "Parisienne", cursive;
   font-size: 45px;
+}
+
+.countdown {
+  font-family: "Parisienne", cursive;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .banner,
@@ -89,14 +98,34 @@ body {
   margin: 0 auto;
 }
 
+.horizontal-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.horizontal-line-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 2px;
+  margin: 0 auto;
+}
+
 .banner img {
   height: 400px;
   width: 1000px;
+  border-radius: 10px;
 }
 
 .stinger img {
   height: 300px;
   width: relative;
+  border-radius: 10px;
 }
 
 .buttonStyle {
@@ -107,16 +136,43 @@ body {
   width: 100px;
   height: 50px;
   margin: 0 auto;
-  background-color: #c21f1f;
-  border: 3px solid #ffe699;
+  background-color: #ffe699;
+  border: none;
   border-radius: 5px;
+  margin-bottom: 80px;
 }
 
 .buttonStyle a {
-  color: white;
+  color: #1c4835;
   font-weight: bold;
   font-size: 30px;
   text-decoration: none;
+}
+
+.buttonStyle a:hover {
+  color: white;
+}
+
+.home-big {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin-right: 20px;
+}
+
+.home-city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin-left: 20px;
 }
 
 .wedding-party-list {
@@ -136,23 +192,6 @@ body {
   margin-right: 20px;
 }
 
-.bride-side-columns {
-  display: flex;
-  flex-direction: row;
-}
-
-.bride-side-column-one {
-  display: flex;
-  flex-direction: column;
-  margin-right: 20px;
-}
-
-.bride-side-column-two {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-
 .groom-side-section {
   display: flex;
   flex-direction: column;
@@ -160,28 +199,8 @@ body {
   margin-left: 20px;
 }
 
-.groom-side-columns {
-  display: flex;
-  flex-direction: row;
-}
-
-.groom-side-column-one {
-  display: flex;
-  flex-direction: column;
-  margin-right: 20px;
-}
-
-.groom-side-column-two {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-
-.bride-side-column-one img,
-.bride-side-column-two img,
-.groom-side-section img,
-.groom-side-column-one img,
-.groom-side-column-two img {
+.bride-side-section img,
+.groom-side-section img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -200,11 +219,22 @@ body {
   margin-right: 710px;
 }
 
-.rsvp-section input{
+.rsvp-section input {
   width: 300px;
   height: 30px;
   margin: 10px;
   text-align: center;
+  color: #1c4835;
+  font-weight: bold;
+}
+
+.rsvp-section li {
+  list-style-type: none;
+}
+
+.rsvp-section li:hover {
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .footer-section {

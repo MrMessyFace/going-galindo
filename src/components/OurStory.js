@@ -6,7 +6,14 @@ const OurStory = () => {
       <br></br>
       <p>Our Story goes here.</p>
       <br></br>
-      <h1>Our Story</h1>
+      <h2>Our Story</h2>
+      <br></br>
+      <div>
+        <h1>K&J</h1>
+        <hr className="horizontal-line" />
+        <br></br>
+        <h3>12.7.2024</h3>
+      </div>
       <br></br>
     </div>
   );
