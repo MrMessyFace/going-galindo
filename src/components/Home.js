@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </div>
       <br></br>
-      <button className="buttonStyle">
+      <button className="button-style">
         <Link to="/rsvp">RSVP</Link>
       </button>
       <div>

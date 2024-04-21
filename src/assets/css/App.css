@@ -9,10 +9,7 @@ body {
   background-color: #1c4835;
   background-image: url("../images/sparkles.png");
   background-size: 100%;
-  /* background-position: center; */
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* font-weight: bold; */
   color: #ffe699;
 }
 
@@ -84,6 +81,21 @@ body {
   font-size: 45px;
 }
 
+.faq-section {
+  margin-left: 700px;
+  margin-right: 700px;
+}
+
+.travel-section h5 {
+  font-family: "Arsenal", sans-serif;
+  font-size: 18px;
+}
+
+.travel-section h5 a {
+  color: white;
+  text-decoration: none;
+}
+
 .countdown {
   font-family: "Parisienne", cursive;
   font-size: 25px;
@@ -128,7 +140,7 @@ body {
   border-radius: 10px;
 }
 
-.buttonStyle {
+.button-style {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,15 +154,19 @@ body {
   margin-bottom: 80px;
 }
 
-.buttonStyle a {
+.button-style a {
   color: #1c4835;
   font-weight: bold;
   font-size: 30px;
   text-decoration: none;
 }
 
-.buttonStyle a:hover {
-  color: white;
+.button-style:hover {
+  background-color: white;
+}
+
+.button-style a:hover {
+  background-color: white;
 }
 
 .home-big {
@@ -205,6 +221,34 @@ body {
   width: 200px;
   border-radius: 50%;
   border: 5px solid #ffe699;
+}
+
+.travel-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 25px;
+  margin: 0 auto;
+  background-color: #ffe699;
+  border: none;
+  border-radius: 5px;
+}
+
+.travel-button a {
+  color: #1c4835;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.travel-button:hover {
+  background-color: white;
+}
+
+.travel-button a:hover {
+  background-color: white;
 }
 
 .rsvp-section {
