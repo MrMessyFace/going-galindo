@@ -59,7 +59,7 @@ const Home = () => {
       <br></br>
       <div className="stinger">
         <img
-          src={require("../assets/images/homepage-stinger.jpg")}
+          src={require("../assets/images/homepage-stinger-two.jpg")}
           alt="Kelsey & Jessie"
         />
       </div>

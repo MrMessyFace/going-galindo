@@ -55,6 +55,11 @@ body {
   margin-top: 325px;
 }
 
+.our-story-section {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
 .home-section h1,
 .our-story-section h1,
 .wedding-party-section h1,
@@ -103,7 +108,9 @@ body {
 }
 
 .banner,
-.stinger {
+.stinger,
+.couple-before,
+.couple-after {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,13 +138,15 @@ body {
 .banner img {
   height: 400px;
   width: 1000px;
+  border: 5px solid #ffe699;
   border-radius: 10px;
 }
 
 .stinger img {
   height: 300px;
   width: relative;
-  border-radius: 10px;
+  border: 5px solid #ffe699;
+  border-radius: 50%;
 }
 
 .button-style {
@@ -191,6 +200,57 @@ body {
   margin-left: 20px;
 }
 
+.our-story, .kelsey-story-section, .jessie-story-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.kelsey-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.jessie-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.couple-before img {
+  height: 225px;
+  border: 5px solid #ffe699;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.couple-after img {
+  height: 225px;
+  border: 5px solid #ffe699;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.kelsey-story-section img {
+  height: 350px;
+  border: 5px solid #ffe699;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.jessie-story-section img {
+  height: 350px;
+  border: 5px solid #ffe699;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
 .wedding-party-list {
   display: flex;
   flex-direction: row;
@@ -217,8 +277,8 @@ body {
 
 .bride-side-section img,
 .groom-side-section img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   border: 5px solid #ffe699;
 }

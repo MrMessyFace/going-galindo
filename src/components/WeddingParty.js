@@ -64,7 +64,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/aliyana-test.jpg")}
+            src={require("../assets/images/aliyana-garcia.jpg")}
             alt="Aliyana Garcia"
           />
           <br></br>
@@ -109,7 +109,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/bobby-test.jpg")}
+            src={require("../assets/images/john-robert-galindo.jpg")}
             alt="John Robert Galindo"
           />
           <br></br>
@@ -164,7 +164,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/holden-test.jpg")}
+            src={require("../assets/images/holden-fladby.jpg")}
             alt="Holden Fladby"
           />
           <br></br>
