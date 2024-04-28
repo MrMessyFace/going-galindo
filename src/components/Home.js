@@ -42,7 +42,7 @@ const Home = () => {
         <div>
           <h2>Ceremony</h2>
           <p>Holy Cross Parish Blessed Sacrament Catholic Church</p>
-          <p>3012 Jackson St, Sioux City, Iowa 51104</p>
+          <p>3012 Jackson St, Sioux City, IA 51104</p>
         </div>
         <br></br>
         <hr className="horizontal-line-two" />
@@ -50,10 +50,8 @@ const Home = () => {
         <div>
           <h2>Reception</h2>
           <p>Sioux City Convention Center</p>
-          <p>801 4th St, Sioux City, Iowa 51101</p>
+          <p>801 4th St, Sioux City, IA 51101</p>
         </div>
-        <br></br>
-        <hr className="horizontal-line-two" />
         <br></br>
       </div>
       <br></br>
