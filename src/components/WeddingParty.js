@@ -9,7 +9,7 @@ const WeddingParty = () => {
       <div className="wedding-party-list">
         <div className="bride-side-section">
           <img
-            src={require("../assets/images/anyssa-test.jpg")}
+            src={require("../assets/images/female-silhouette.jpg")}
             alt="Anyssa Larson"
           />
           <br></br>
@@ -20,7 +20,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/jess-test.jpg")}
+            src={require("../assets/images/female-silhouette.jpg")}
             alt="Jessica Ward"
           />
           <br></br>
@@ -31,7 +31,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/ally-test.jpg")}
+            src={require("../assets/images/female-silhouette.jpg")}
             alt="Ally Blackburn"
           />
           <br></br>
@@ -42,7 +42,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/kylie-test.jpg")}
+            src={require("../assets/images/female-silhouette.jpg")}
             alt="Kylie Galindo"
           />
           <br></br>
@@ -53,7 +53,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/dana-test.jpg")}
+            src={require("../assets/images/female-silhouette.jpg")}
             alt="Dana Trejo"
           />
           <br></br>
@@ -75,7 +75,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/olivia-test.jpg")}
+            src={require("../assets/images/female-silhouette.jpg")}
             alt="Olivia Fladby"
           />
           <br></br>
@@ -86,7 +86,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/carolina-test.jpg")}
+            src={require("../assets/images/female-silhouette.jpg")}
             alt="Carolina Trejo"
           />
           <br></br>
@@ -98,7 +98,7 @@ const WeddingParty = () => {
         </div>
         <div className="groom-side-section">
           <img
-            src={require("../assets/images/demetrius-test.jpg")}
+            src={require("../assets/images/male-silhouette.jpg")}
             alt="Demetrius Hearte"
           />
           <br></br>
@@ -120,7 +120,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/aj-test.jpg")}
+            src={require("../assets/images/male-silhouette.jpg")}
             alt="A.J. Ellingwood"
           />
           <br></br>
@@ -131,7 +131,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/kevin-test.jpg")}
+            src={require("../assets/images/male-silhouette.jpg")}
             alt="Kevin Daniels"
           />
           <br></br>
@@ -142,7 +142,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/mitch-test.jpg")}
+            src={require("../assets/images/male-silhouette.jpg")}
             alt="Mitchell Trejo"
           />
           <br></br>
@@ -153,7 +153,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/damian-test.jpg")}
+            src={require("../assets/images/male-silhouette.jpg")}
             alt="Damian Whisler"
           />
           <br></br>

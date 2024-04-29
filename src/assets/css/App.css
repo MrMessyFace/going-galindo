@@ -46,13 +46,20 @@ body {
 .wedding-party-section,
 .faq-section,
 .travel-section,
-.registry-section,
-.rsvp-section {
+.registry-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin-top: 325px;
+}
+
+.rsvp-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 375px;
 }
 
 .our-story-section {
@@ -200,7 +207,9 @@ body {
   margin-left: 20px;
 }
 
-.our-story, .kelsey-story-section, .jessie-story-section {
+.our-story,
+.kelsey-story-section,
+.jessie-story-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -311,7 +320,10 @@ body {
   background-color: white;
 }
 
-.rsvp-section {
+.rsvp-section,
+.guest-search,
+.guest-list,
+.selected-guest {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -323,22 +335,87 @@ body {
   margin-right: 710px;
 }
 
-.rsvp-section input {
+.guest-search input, .selected-guest input {
   width: 300px;
-  height: 30px;
+  height: 40px;
   margin: 10px;
-  text-align: center;
   color: #1c4835;
+  font-family: "Arsenal", sans-serif;
+  font-size: 16px;
   font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
 }
 
-.rsvp-section li {
+.guest-search button, .selected-guest button {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  background-color: lightgray;
+  color: white;
+  font-family: "Arsenal", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.guest-list li {
   list-style-type: none;
 }
 
-.rsvp-section li:hover {
+.guest-list li:hover {
   font-weight: bold;
   cursor: pointer;
+}
+
+.selected-guest h2 {
+  font-family: "Parisienne", cursive;
+  font-size: 35px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.selected-guest select {
+  width: 125px;
+  height: 30px;
+  margin: 10px;
+  color: #1c4835;
+  font-family: "Arsenal", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.selected-guest input {
+  width: 400px;
+  height: 30px;
+  margin: 10px;
+  color: #1c4835;
+  font-family: "Arsenal", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.selected-guest button {
+  width: 125px;
+  height: 35px;
+  margin: 10px;
+  background-color: #ffe699;
+  color: #1c4835;
+  font-family: "Arsenal", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
 }
 
 .footer-section {
