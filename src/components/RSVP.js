@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
+
+const SERVICE_ID = "service_sfij6tc";
+const TEMPLATE_ID = "template_pdjd0yl";
+const USER_ID = "iTy4rIt8P-tfM7uaB";
 
 const RSVPForm = () => {
   const [formData, setFormData] = useState({
@@ -253,14 +259,31 @@ const RSVPForm = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    // Here you can add logic to send the updated RSVP status via email
     const emailContent = `
       Guest: ${selectedGuest.name}
       RSVP Status: ${formData.rsvpStatus}
       Food Issues: ${formData.foodIssue}
     `;
-    console.log(emailContent); // Log email content (replace with actual email sending logic)
+
+    e.preventDefault();
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
+      (result) => {
+        console.log(result.text);
+        Swal.fire({
+          icon: "success",
+          title: "RSVP Sent Successfully",
+        });
+      },
+      (error) => {
+        console.log(error.text);
+        Swal.fire({
+          icon: "error",
+          title: "Ooops, something went wrong",
+          text: error.text,
+        });
+      }
+    );
+    e.target.reset();
     setSubmitted(true);
   };
 
