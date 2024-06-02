@@ -6,7 +6,7 @@ const FAQ = () => {
       <h2>Frequently Asked Questions</h2>
       <br></br>
       <h3>What is the RSVP deadline?</h3>
-      <p>Please RSVP by June 1st, 2024.</p>
+      <p>Please RSVP by October 26, 2024.</p>
       <br></br>
       <h3>What is the dress code?</h3>
       <p>Formal/semi-formal attire is requested.</p>

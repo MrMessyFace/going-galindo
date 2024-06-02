@@ -9,7 +9,7 @@ const WeddingParty = () => {
       <div className="wedding-party-list">
         <div className="bride-side-section">
           <img
-            src={require("../assets/images/female-silhouette.jpg")}
+            src={require("../assets/images/anyssa-larson.jpg")}
             alt="Anyssa Larson"
           />
           <br></br>
@@ -42,7 +42,7 @@ const WeddingParty = () => {
           </p>
           <br></br>
           <img
-            src={require("../assets/images/female-silhouette.jpg")}
+            src={require("../assets/images/kylie-galindo.jpg")}
             alt="Kylie Galindo"
           />
           <br></br>
@@ -135,14 +135,14 @@ const WeddingParty = () => {
             alt="Kevin Daniels"
           />
           <br></br>
-          <h3>Kevin Daniels</h3>
+          <h3>Will Christophersen</h3>
           <h4>Groomsman</h4>
           <p>
             <i>Friend of the Groom</i>
           </p>
           <br></br>
           <img
-            src={require("../assets/images/male-silhouette.jpg")}
+            src={require("../assets/images/mitch-trejo.jpg")}
             alt="Mitchell Trejo"
           />
           <br></br>
