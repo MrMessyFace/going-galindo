@@ -9,7 +9,6 @@ const OurStory = () => {
       <h3>As the old saying goes: the third time’s the charm!</h3>
       <br></br>
       <div className="our-story">
-        
         <div>
           <p>
             Prior to meeting one another, both Jessie and Kelsey had several
@@ -98,11 +97,11 @@ const OurStory = () => {
         />
       </div>
       <div className="couple-after">
-          <img
-            src={require("../assets/images/couple-after-two.jpg")}
-            alt="Kelsey & Jessie"
-          />
-        </div>
+        <img
+          src={require("../assets/images/couple-after-two.jpg")}
+          alt="Kelsey & Jessie"
+        />
+      </div>
       <br></br>
       <div>
         <h1>K&J</h1>
