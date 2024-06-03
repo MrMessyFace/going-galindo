@@ -334,6 +334,23 @@ body {
   margin-right: 710px;
 }
 
+.rsvp-form,
+.rsvp-column-one,
+.rsvp-column-two,
+.rsvp-column-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rsvp-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .guest-search label,
 .rsvp-status label,
 .food-issue label {

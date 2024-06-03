@@ -242,65 +242,140 @@ const RSVPForm = () => {
       <div className="rsvp-section">
         <h1>Kelsey and Jessie's Wedding</h1>
         <br></br>
-        <Form onSubmit={handleOnSubmit}>
-          <Form.Field
-            className="guest-search"
-            id="name1"
-            control={Input}
-            label="Guest #1:"
-            name="name1"
-            placeholder="Your Full Name"
-            required
-          />
-          <Form.Field
-            className="guest-search"
-            id="name2"
-            control={Input}
-            label="Guest #2:"
-            name="name2"
-            placeholder="Their Full Name"
-          />
-          <Form.Field
-            className="guest-search"
-            id="name3"
-            control={Input}
-            label="Guest #3:"
-            name="name3"
-            placeholder="Their Full Name"
-          />
-          <Form.Field
-            className="guest-search"
-            id="name4"
-            control={Input}
-            label="Guest #4:"
-            name="name4"
-            placeholder="Their Full Name"
-          />
-          <Form.Field
-            className="guest-search"
-            id="name5"
-            control={Input}
-            label="Guest #5:"
-            name="name5"
-            placeholder="Their Full Name"
-          />
-          <Form.Field
-            className="rsvp-status"
-            id="rsvpStatus"
-            control={Input}
-            label="RSVP:"
-            name="rsvpStatus"
-            placeholder="Attending or Not Attending"
-            required
-          />
-          <Form.Field
-            className="food-issue"
-            id="foodIssue"
-            control={Input}
-            label="Food Issues:"
-            name="foodIssue"
-            placeholder="Gluten-Free, Lactose Intolerant, Vegan, etc."
-          />
+        <p>Please RSVP for those who are listed on your invitation.</p>
+        <br></br>
+        <Form className="rsvp-form" onSubmit={handleOnSubmit}>
+          <div className="rsvp-columns">
+            <div className="rsvp-column-one">
+              <Form.Field
+                className="guest-search"
+                id="name1"
+                control={Input}
+                label="Guest #1:"
+                name="name1"
+                placeholder="Your Full Name"
+                required
+              />
+              <Form.Field
+                className="guest-search"
+                id="name2"
+                control={Input}
+                label="Guest #2:"
+                name="name2"
+                placeholder="Their Full Name"
+              />
+              <Form.Field
+                className="guest-search"
+                id="name3"
+                control={Input}
+                label="Guest #3:"
+                name="name3"
+                placeholder="Their Full Name"
+              />
+              <Form.Field
+                className="guest-search"
+                id="name4"
+                control={Input}
+                label="Guest #4:"
+                name="name4"
+                placeholder="Their Full Name"
+              />
+              <Form.Field
+                className="guest-search"
+                id="name5"
+                control={Input}
+                label="Guest #5:"
+                name="name5"
+                placeholder="Their Full Name"
+              />
+            </div>
+            <div className="rsvp-column-two">
+              <Form.Field
+                className="rsvp-status"
+                id="rsvpStatus1"
+                control={Input}
+                label="RSVP #1:"
+                name="rsvpStatus1"
+                placeholder="Attending or Not Attending"
+                required
+              />
+              <Form.Field
+                className="rsvp-status"
+                id="rsvpStatus2"
+                control={Input}
+                label="RSVP #2:"
+                name="rsvpStatus2"
+                placeholder="Attending or Not Attending"
+              />
+              <Form.Field
+                className="rsvp-status"
+                id="rsvpStatus3"
+                control={Input}
+                label="RSVP #3:"
+                name="rsvpStatus3"
+                placeholder="Attending or Not Attending"
+              />
+              <Form.Field
+                className="rsvp-status"
+                id="rsvpStatus4"
+                control={Input}
+                label="RSVP #4:"
+                name="rsvpStatus4"
+                placeholder="Attending or Not Attending"
+              />
+              <Form.Field
+                className="rsvp-status"
+                id="rsvpStatus5"
+                control={Input}
+                label="RSVP #5:"
+                name="rsvpStatus5"
+                placeholder="Attending or Not Attending"
+              />
+            </div>
+            <div className="rsvp-column-three">
+              <Form.Field
+                className="food-issue"
+                id="foodIssue1"
+                control={Input}
+                label="Food Issues #1:"
+                name="foodIssue1"
+                placeholder="Gluten-Free, Lactose Intolerant, Vegan, etc."
+              />
+              <Form.Field
+                className="food-issue"
+                id="foodIssue2"
+                control={Input}
+                label="Food Issues #2:"
+                name="foodIssue2"
+                placeholder="Gluten-Free, Lactose Intolerant, Vegan, etc."
+              />
+              <Form.Field
+                className="food-issue"
+                id="foodIssue3"
+                control={Input}
+                label="Food Issues #3:"
+                name="foodIssue3"
+                placeholder="Gluten-Free, Lactose Intolerant, Vegan, etc."
+              />
+              <Form.Field
+                className="food-issue"
+                id="foodIssue4"
+                control={Input}
+                label="Food Issues #4:"
+                name="foodIssue4"
+                placeholder="Gluten-Free, Lactose Intolerant, Vegan, etc."
+              />
+              <Form.Field
+                className="food-issue"
+                id="foodIssue5"
+                control={Input}
+                label="Food Issues #5:"
+                name="foodIssue5"
+                placeholder="Gluten-Free, Lactose Intolerant, Vegan, etc."
+              />
+            </div>
+          </div>
+          <br></br>
           <Button className="submit-rsvp" type="submit">
             Submit RSVP
           </Button>
