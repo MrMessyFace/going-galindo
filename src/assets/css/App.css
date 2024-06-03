@@ -334,7 +334,15 @@ body {
   margin-right: 710px;
 }
 
-.guest-search input, .selected-guest input {
+.guest-search label,
+.rsvp-status label,
+.food-issue label {
+  font-weight: bold;
+}
+
+.guest-search input,
+.rsvp-status input,
+.food-issue input {
   width: 300px;
   height: 40px;
   margin: 10px;
@@ -347,12 +355,12 @@ body {
   border-radius: 5px;
 }
 
-.guest-search button, .selected-guest button {
+.submit-rsvp {
   width: 300px;
   height: 40px;
   margin: 10px;
-  background-color: lightgray;
-  color: white;
+  background-color: #ffe699;
+  color: #1c4835;
   font-family: "Arsenal", sans-serif;
   font-size: 16px;
   font-weight: bold;
