@@ -6,7 +6,8 @@ const OurStory = () => {
       <br></br>
       <h2>Our Story</h2>
       <br></br>
-      <h3>As the old saying goes: the third time’s the charm!</h3>
+      <h1>Coming soon!</h1>
+      {/* <h3>As the old saying goes: the third time’s the charm!</h3>
       <br></br>
       <div className="our-story">
         <div>
@@ -101,7 +102,7 @@ const OurStory = () => {
           src={require("../assets/images/couple-after-two.jpg")}
           alt="Kelsey & Jessie"
         />
-      </div>
+      </div> */}
       <br></br>
       <div>
         <h1>K&J</h1>

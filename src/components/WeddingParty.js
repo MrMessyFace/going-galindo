@@ -124,7 +124,7 @@ const WeddingParty = () => {
             alt="A.J. Ellingwood"
           />
           <br></br>
-          <h3>A.J. Ellingwood</h3>
+          <h3>Will Christophersen</h3>
           <h4>Groomsman</h4>
           <p>
             <i>Friend of the Groom</i>
@@ -135,10 +135,10 @@ const WeddingParty = () => {
             alt="Kevin Daniels"
           />
           <br></br>
-          <h3>Will Christophersen</h3>
+          <h3>Michael Fladby</h3>
           <h4>Groomsman</h4>
           <p>
-            <i>Friend of the Groom</i>
+            <i>Brother-In-Law of the Groom</i>
           </p>
           <br></br>
           <img
